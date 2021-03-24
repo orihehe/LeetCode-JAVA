@@ -1,4 +1,4 @@
-package com.company.solution.bbahngju;
+package com.company.solution.week01.bbahngju;
 
 public class BestTimetoBuyandSellStock {
     public static void main(String[] arg) {

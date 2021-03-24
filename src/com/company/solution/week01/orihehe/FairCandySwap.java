@@ -1,4 +1,4 @@
-package com.company.solution.orihehe;
+package com.company.solution.week01.orihehe;
 
 import java.util.Arrays;
 
