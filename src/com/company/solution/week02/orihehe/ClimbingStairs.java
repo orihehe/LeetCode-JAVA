@@ -1,5 +1,7 @@
 package com.company.solution.week02.orihehe;
 
+// 70
+// O(N)
 public class ClimbingStairs {
     public int climbStairs(int n) {
         int[] dp = new int[n + 1];

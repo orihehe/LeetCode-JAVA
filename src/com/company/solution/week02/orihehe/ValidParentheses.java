@@ -2,6 +2,8 @@ package com.company.solution.week02.orihehe;
 
 import java.util.Stack;
 
+// 20
+// O(N)
 public class ValidParentheses {
 
     private boolean isPairBracket(char f, char s) {
