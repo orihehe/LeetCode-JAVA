@@ -4,7 +4,7 @@ import java.util.HashSet;
 import java.util.Set;
 
 // 202
-// N is at least 750 or less.
+// N is at least 730 or less.
 // O(N)
 public class HappyNumber {
 
