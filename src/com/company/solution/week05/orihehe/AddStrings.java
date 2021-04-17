@@ -1,4 +1,4 @@
-package com.company.solution.week5.orihehe;
+package com.company.solution.week05.orihehe;
 
 import java.math.BigInteger;
 
