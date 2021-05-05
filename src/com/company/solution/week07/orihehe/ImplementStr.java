@@ -1,4 +1,4 @@
-package com.company.week07.orihehe;
+package com.company.solution.week07.orihehe;
 
 // 28
 // O(NM)
