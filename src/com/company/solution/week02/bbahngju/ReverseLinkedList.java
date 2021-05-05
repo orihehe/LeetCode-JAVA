@@ -1,6 +1,6 @@
 package com.company.solution.week02.bbahngju;
 
-import com.company.solution.week02.common.ListNode;
+import com.company.common.ListNode;
 
 //O(N)
 public class ReverseLinkedList {

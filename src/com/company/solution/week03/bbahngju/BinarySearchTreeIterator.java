@@ -1,6 +1,6 @@
 package com.company.solution.week03.bbahngju;
 
-import com.company.solution.week03.common.TreeNode;
+import com.company.common.TreeNode;
 
 import java.util.LinkedList;
 import java.util.Queue;

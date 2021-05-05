@@ -1,4 +1,4 @@
-package com.company.solution.week03.common;
+package com.company.common;
 
 public class TreeNode {
     public int val;
