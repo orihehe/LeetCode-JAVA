@@ -1,6 +1,7 @@
 package com.company.solution.week05.orihehe;
 
-import com.company.solution.week05.common.ListNode;
+
+import com.company.common.ListNode;
 
 // 160
 // the love

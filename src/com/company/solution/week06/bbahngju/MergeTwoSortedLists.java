@@ -1,5 +1,6 @@
 package com.company.solution.week06.bbahngju;
-import com.company.solution.week06.common.ListNode;
+
+import com.company.common.ListNode;
 
 //21
 //O(N)

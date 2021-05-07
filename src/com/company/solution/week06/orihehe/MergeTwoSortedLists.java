@@ -1,6 +1,6 @@
 package com.company.solution.week06.orihehe;
 
-import com.company.solution.week06.common.ListNode;
+import com.company.common.ListNode;
 
 // 21
 // O(N)
