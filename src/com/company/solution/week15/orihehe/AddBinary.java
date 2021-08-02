@@ -1,4 +1,4 @@
-package com.company.solution.week15;
+package com.company.solution.week15.orihehe;
 
 // 67
 // O(N)
