@@ -10,7 +10,7 @@ public class LongestPalindromicSubstring {
 
         for(int i = 0; i < s.length() - 1; i++) {
             String even = search(i, i + 1, s);
-            String odd = search(i, i + 2, s);
+            String odd = search(i, i, s);
 
             if(even.length() >= odd.length()) {
                 if(even.length() > answer.length())
@@ -21,15 +21,21 @@ public class LongestPalindromicSubstring {
                     answer = odd;
             }
         }
-
         return answer;
     }
 
-    public String search(int start, int end, String s) {
-        while(start >= 0 && end < s.length() && (s.charAt(start) == s.charAt(end))) {
-            start--;
-            end++;
+    public String search(int left, int right, String s) {
+        int start, end;
+
+        while(left >= 0 && right < s.length() && (s.charAt(left) == s.charAt(right))) {
+            left--;
+            right++;
         }
-        return s.substring(start + 1, end);
+
+        start = left + 1;
+        end = right - 1;
+
+        if(start > end) return "";
+        return s.substring(start, end + 1);
     }
 }
